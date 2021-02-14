@@ -7,7 +7,10 @@
     "test": "node_modules/.bin/cypress run --spec \"cypress/integration/tests/*.feature\"",
     "head": "npm run test -- --headed",
     "chrome": "npm run test -- --browser chrome",
-    "record": "npm run test -- --record --key 8cfc12b9-e5e4-4ca7-9504-a6422dda8db1"
+    "record": "npm run test -- --record --key 8cfc12b9-e5e4-4ca7-9504-a6422dda8db1",
+     "jira:chrome": "cypress run --group 1x-chrome --record --headless --browser chrome",
+  "jira:firefox": "cypress run --group 1x-firefox --record --headless --browser firefox",
+  "jira:electron": "cypress run --group 1x-electron --record  --headless --browser electron"
   },
   "repository": {
     "type": "git",
