@@ -66,6 +66,15 @@ oc new-project cypress-project
 ![image](https://user-images.githubusercontent.com/36239840/107650596-1a7a8d00-6c98-11eb-8cf4-7d027d8efd8c.png)
 - Once you login to Jenkins, you will be redirected to the homepage that looks like the following. In the next steps, you will be using Jenkins to demonstrate end to end testing.
 ![image](https://user-images.githubusercontent.com/36239840/107651735-49ddc980-6c99-11eb-9283-e7c08540f4d2.png)
+## Manage Jenkins and install packages
+- For this tutorial, you will need to install several packages. To do that, first go to 'Manage Jenkins' from the navigation menu shown at the left.
+![manage](https://user-images.githubusercontent.com/36239840/107872100-1da49180-6ec1-11eb-88a6-4316a80e38f9.JPG)
+- Scroll all the way down to 'System Configuration' and select 'Manage Plugins'
+![system plugin](https://user-images.githubusercontent.com/36239840/107872130-5e040f80-6ec1-11eb-9be0-13d84b46eb6a.JPG)
+- In the filter textbox, search for 'NodeJs' and 'Xvfb' to install these plugins.\
+![image](https://user-images.githubusercontent.com/36239840/107872345-2e560700-6ec3-11eb-8e25-89f8fb5a9278.png)
+![image](https://user-images.githubusercontent.com/36239840/107872375-60ffff80-6ec3-11eb-9c30-e0d649978ffb.png)
+
 
 ## Summary
 
